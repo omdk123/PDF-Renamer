@@ -1,10 +1,7 @@
 import os
 
-# Ye folder ka path hai jahan aapki files rakhi hain
-# Ye folder ka path hai jahan aapki files rakhi hain
 folder_path = r"D:\PDF Rename"
 
-# Folder mein jaayenge
 os.chdir(folder_path)
 
 # Har file ko rename karenge
@@ -15,4 +12,4 @@ for filename in os.listdir(folder_path):
         os.rename(filename, new_name)
         count += 1
 
-print("Sabhi files rename ho gayi!")
+print("all files are remnamed!")
