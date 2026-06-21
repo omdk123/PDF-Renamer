@@ -16,4 +16,4 @@ A simple and efficient Python script designed to automate the process of renamin
 3. Open your terminal or command prompt in that directory.
 4. Run the script using the following command:
    ```bash
-   python g.py
+   python rename.py
