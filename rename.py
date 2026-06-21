@@ -4,7 +4,7 @@ folder_path = r"D:\PDF Rename"
 
 os.chdir(folder_path)
 
-# Har file ko rename karenge
+# every file will be renamed
 count = 1
 for filename in os.listdir(folder_path):
     if filename.endswith(".pdf"):
